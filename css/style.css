@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* TITOLO E LOGO*/
+header {
+    background-size: 80px;
+    padding: 10px 0px 10px 25px;
+    background-repeat: no-repeat;
+}
+
+#logo {
+    background-image: url(../img/logo\ copia.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#text-logo {
+    font-size: 50px;
+    vertical-align: middle;
+    font-family: "public sans";
+    font-weight: 900;
+}
+
+/* FINE TITOLO E LOGO */
+/* PREPARAZIONE DI BACKGROUND */
+main {
+    background-color: rgb(235, 235, 235);
+    height: 1900px;
+    width: 1700px;
+    padding: 50px;
+}
+
+#parte1 {
+    background-color: rgb(255, 255, 255);
+    height: 75px;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0px 10px 50px;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom-color: rgb(235, 235, 235);
+
+}
+
+
+#parte2 {
+    width: 1200px;
+    height: 1800px;
+    background-color: rgb(255, 255, 255);
+    padding: 35px 0px 0px 50px;
+    margin: auto;
+    margin-top: 3px;
+
+}
+
+/* FINE PREPARAZIONE BACKGROUD */
+/* BUTTON */
+#button1 {
+    background-color: rgb(49, 128, 247);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    border-color: rgb(49, 128, 247);
+    color: white;
+    font-weight: 700;
+
+}
+
+#button2 {
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    border-color: rgb(180, 181, 182);
+    background-color: white;
+    color: rgb(180, 181, 182);
+    font-weight: 700;
+}
+
+/* FINE BUTTON */
+/* INIZIO LISTA TESTO E ENTITY*/
+.lista {
+    list-style-type: none;
+    margin: 10px 0px 10px 0px;
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "public sans";
+
+}
+
+/* INIZIO EMTITY */
+.freccia {
+    vertical-align: middle;
+    display: inline-block;
+    height: 30px;
+    font-size: 50px;
+}
+
+svg {
+    vertical-align: middle;
+    width: 20px;
+    display: inline-block;
+    margin: 10px;
+
+}
+
+/* FINE ENTITY */
+
+.text {
+    vertical-align: middle;
+    font-size: 20px;
+    font-family: "public sans";
+    font-weight: 600;
+    padding: 5px;
+}
+
+/* FINE LISTA TESTO E ENTITY */
+/* INSERINEBTO BUTTON */
+
+.text-button {
+    vertical-align: middle;
+    display: inline-block;
+    padding: 7px;
+    border-radius: 15px;
+}
+
+.blue {
+    background-color: rgb(49, 128, 247);
+    color: white;
+    border: none;
+}
+
+.pink {
+    background-color: rgb(220, 57, 212);
+    color: white;
+    border: none;
+}
+
+.giallo {
+    background-color: rgb(183, 218, 78);
+    color: white;
+    border: none;
+}
+
+.green {
+    background-color: rgb(96, 210, 126);
+    color: white;
+    border: none;
+}
+
+.viola {
+    background-color: rgb(127, 31, 142);
+    color: white;
+    border: none;
+}
+
+.orange {
+    background-color: rgb(244, 164, 53);
+    color: white;
+    border: none;
+}
+
+/* FINE INSERIMENTO BUTTON */
+/* FINE ESERCIZIO */
